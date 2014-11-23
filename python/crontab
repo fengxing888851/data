@@ -1,0 +1,7 @@
+0 * * * * /home/syk/baidushuge.sh 2>&1 >/home/syk/baidushuge.log
+      2 0 8 * * * python /home/syk/twill/lab.py login 2>&1 >>/home/syk/twill/lab.log
+      3 0 10 * * * /home/syk/bbs/bbswatch.sh
+      4 #30 8 * * 6,7 python /home/syk/backup/badminton-zxj.py 2>&1 >>/home/syk/badminton-zxj.log
+      5 #30 8 * * 6,7 python /home/syk/backup/badminton-wjw.py 2>&1 >>/home/syk/badminton-wjw.log
+      6 0 8 * * * /home/syk/lrtauto
+

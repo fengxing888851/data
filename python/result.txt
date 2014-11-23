@@ -1,0 +1,4 @@
+刘备 	: 200	average: 40
+关羽 	: 205	average: 68
+张飞 	: 376	average: 94
+诸葛亮 	: 100	average: 100
